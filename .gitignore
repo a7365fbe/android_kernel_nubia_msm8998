@@ -121,7 +121,14 @@ android/configs/android-*.cfg
 /compile_commands.json
 
 #
-#Ignoring Android.bp link file
+# Ignoring Android.bp link file
 #
 Android.bp
+
+#
+# Ignore compile files
+#
+
 build.sh
+out/
+KernelSU/
